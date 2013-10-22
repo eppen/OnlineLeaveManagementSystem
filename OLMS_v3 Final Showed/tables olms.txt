@@ -1,0 +1,27 @@
+create table profile
+(
+uname 	varchar(20),
+pword 	varchar(20),
+name 	varchar(20),
+u_id 	varchar(20),
+desig 	varchar(20),
+addr 	varchar(50),
+mob 	varchar(20),
+email 	varchar(20)
+);
+
+create table leave
+(
+ano	integer,
+name 	varchar(20),
+u_id 	varchar(20),
+desig 	varchar(20),
+sdate 	varchar(20),
+edate 	varchar(20),
+reason 	varchar(20),
+status 	varchar(20)
+);
+
+
+
+

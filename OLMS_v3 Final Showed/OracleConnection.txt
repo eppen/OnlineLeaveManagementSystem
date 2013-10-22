@@ -1,0 +1,36 @@
+connect database to lab system
+
+1-open a notepad file and save as test.udl ,save type : all files , on desktop.
+2-open test file 
+  provider : select 'Oracle Provider for OLE DB' click 'Next'
+
+  connection 
+  Data Source: nitt
+  User Name : mca12--
+  Password :  User---
+  click Test Connection, and then OK....
+
+3-Open test file with notepad
+
+  in this file copy following line
+
+  'Provider=OraOLEDB.Oracle.1;Persist Security Info=False;User ID=mca12--;Data Source=nitt'
+
+  and also write your "PASSWORD=User---;"
+
+  Provider=OraOLEDB.Oracle.1;Persist Security Info=False;User ID=mca12--;PASSWORD=User---;Data Source=nitt
+
+  REPLACE IT WITH YOUR CONNECTION STRING.....
+
+---------------------------------------------------------------
+
+OPEN YOUR PROJECT 
+
+1- open tools,click on connect to database
+2- change Data source : Oracle Database , select Data Provider : .NET Framework Data Provider OLE DB, click OK
+3- server name : nitt
+   username : mca----
+   password : User---
+   click Test Connection, and then OK....
+
+Provider=OraOLEDB.Oracle.1;Persist Security Info=False;User ID=mca1285; Password=User123; Data Source=nitt
